@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Math Magician
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Bookstore is a website designed using React & Redux which allows you to perform the following.
 
-## Available Scripts
+- Display a list of books.
+- Add a book.
+- Remove a selected book.
 
-In the project directory, you can run:
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Please do the following to setup project locally
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You need the following installed
+-Install node.js version ^12.\*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You need to setup node.js version 12.0 or above, and download the project from the github.
 
-### `npm run eject`
+### Install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Download the project from github and unzip the file or You can clone the project using the github link [https://github.com/bamsi/sneak-peak.git]
+Open the terminal, git bash is recommended and the navigate to the directory of the project
+Run the following command
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`npm install`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You can add scores to the list and use refresh button to retrieve data.
 
-## Learn More
+## Run tests
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The website has been tested using css, html and javascript linters. You can run the following command to test the code:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `npx eslint .` web hint to test javascript
+- `npx stylelint "**/*.{css,scss}` for style
 
-### Code Splitting
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+You can deploy the website to any web server of your choice
 
-### Analyzing the Bundle Size
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+👤 **Haji Bamsi**
 
-### Making a Progressive Web App
+- GitHub:
+  [@bamsi](https://github.com/bamsi)
+- Twitter: [@bamsi](https://twitter.com/haji-bamsi-17327728/)
+- LinkedIn: [bamsi](https://linkedin.com/in/bamsi)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
+- Hat tip to [Microverse](www.microverse.org) and all the staff
+- Thanks to My coding Partners
+- Thanks to My Morning-session-group and Standup-team Partners and
+- Thanks to Code Reviewers
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
