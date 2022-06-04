@@ -8,13 +8,14 @@
   margin: 0 6.188rem 0 6.25rem;
   list-style-type: none;
   padding-left: 0;
+
   /* padding: 2.313rem 2.313rem; */
 }
 
 .list-item {
   padding: 2rem 1.688rem 1.625rem 1.688rem;
   border: 1px solid #e8e8e8;
-  background-color: #ffffff;
+  background-color: #fff;
   margin-bottom: 0.938rem;
   display: flex;
   justify-content: space-between;

@@ -6,9 +6,9 @@
   align-items: center;
   height: 5.938rem;
   padding: 1.438rem 6.188rem 1.688rem 6.25rem;
-  background-color: #ffffff;
+  background-color: #fff;
   border-bottom: 2px solid #e8e8e8;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
