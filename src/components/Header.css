@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@300;400;700&family=Montserrat:wght@400;500;900&display=swap');
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5.938rem;
+  padding: 1.438rem 6.188rem 1.688rem 6.25rem;
+  background-color: #ffffff;
+  border-bottom: 2px solid #e8e8e8;
+  font-family: Montserrat;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.link-items {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.813rem;
+  letter-spacing: 1.9px;
+  color: #121212;
+}
+
+.brand-name {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #0290ff;
+  text-decoration: none;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #e8e8e8;
+  width: 2.813rem;
+  height: 2.813rem;
+}
+
+.profile-icon {
+  color: #0290ff;
+  width: 1.063rem;
+  height: 1.063rem;
+}
