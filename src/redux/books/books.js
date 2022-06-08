@@ -1,5 +1,5 @@
-const ADD_BOOK = 'ADD_BOOK';
-const REMOVE_BOOK = 'REMOVE_BOOK';
+const ADD_BOOK = 'bookstore/books/ADD_BOOK';
+const REMOVE_BOOK = 'bookstore/books/REMOVE_BOOK';
 const initialState = {
   list: [],
 };
@@ -14,7 +14,7 @@ const removeBook = () => ({
   index: 0,
 });
 
-const book = (state = initialState, action) => {
+const books = (state = initialState, action) => {
   switch (action.type) {
     case ADD_BOOK:
       return {
@@ -22,7 +22,7 @@ const book = (state = initialState, action) => {
       };
     case REMOVE_BOOK:
       return {
-        list: [...state.list.slice(0, action.index), ...state.list.slice(action.index)],
+        list: state.list.filter((book, index) => index !== action.index),
       };
     default:
       return state;
@@ -31,4 +31,4 @@ const book = (state = initialState, action) => {
 
 export { addBook, removeBook };
 
-export default book;
+export default books;
