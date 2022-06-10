@@ -1,17 +1,17 @@
 const ADD_BOOK = 'bookstore/books/ADD_BOOK';
 const REMOVE_BOOK = 'bookstore/books/REMOVE_BOOK';
 const initialState = {
-  list: [{title: 'The Hunger Games', author: 'Suzanne Collins', category: 'Action'}],
+  list: [{ title: 'The Hunger Games', author: 'Suzanne Collins' }, { title: 'React redux', author: 'Bamsi Haji' }],
 };
 
-const addBook = () => ({
-  type: 'ADD_BOOK',
-  newBook: {},
+const addBook = ({ newBook }) => ({
+  type: ADD_BOOK,
+  newBook,
 });
 
-const removeBook = () => ({
-  type: 'REMOVE_BOOK',
-  index: 0,
+const removeBook = ({ index }) => ({
+  type: REMOVE_BOOK,
+  index,
 });
 
 const books = (state = initialState, action) => {
