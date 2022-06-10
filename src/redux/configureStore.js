@@ -7,6 +7,6 @@ const rootReducer = combineReducers({
   categories,
 });
 
-const Store = createStore(rootReducer);
+const store = createStore(rootReducer);
 
-export default Store;
+export default store;

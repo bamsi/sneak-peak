@@ -1,4 +1,4 @@
-# Math Magician
+# BookStore
 
 The Bookstore is a website designed using React & Redux which allows you to perform the following.
 
@@ -6,10 +6,11 @@ The Bookstore is a website designed using React & Redux which allows you to perf
 - Add a book.
 - Remove a selected book.
 
+<img alt="img" src="screen-short.png" width="60%" height="auto" />
 
 ## Built With
 
-React
+React & redux
 
 
 ## Getting Started
@@ -35,7 +36,8 @@ Run the following command
 
 ### Usage
 
-You can add scores to the list and use refresh button to retrieve data.
+You can add book to the list by filling title and author, also to start the application use the following command:
+`npm start`
 
 ## Run tests
 

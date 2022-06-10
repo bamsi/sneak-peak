@@ -1,16 +1,43 @@
-import React from 'react';
+import { React, useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { addBook } from '../redux/books/books';
 
-const AddBook = () => (
-  <section>
-    <h2>Add New Book</h2>
-    <form>
-      <input type="text" name="title" placeholder="Book title" />
-      <select name="category">
-        <option value="">category</option>
-      </select>
-      <button type="button">Add book</button>
-    </form>
-  </section>
-);
+const AddBook = () => {
+  const [title, setTitle] = useState('');
+  const [author, setAuthor] = useState('');
+  const dispatch = useDispatch();
+
+  const changeTitle = (e) => {
+    setTitle(e.target.value);
+  };
+
+  const changeAuthor = (e) => {
+    setAuthor(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (title.trim() && author.trim()) {
+      const newBook = { title, author };
+      dispatch(addBook({ newBook }));
+    } else {
+      alert('Please enter all required field');
+    }
+  };
+
+  return (
+    <section>
+      <h2>Add New Book</h2>
+      <form onSubmit={(e) => handleSubmit(e)}>
+        <input type="text" name="title" value={title} onChange={(e) => changeTitle(e)} placeholder="Book title" />
+        <input type="text" name="author" value={author} onChange={(e) => changeAuthor(e)} placeholder="Author" />
+        <select name="category">
+          <option value="">category</option>
+        </select>
+        <button type="submit">Add book</button>
+      </form>
+    </section>
+  );
+};
 
 export default AddBook;
