@@ -1,7 +1,7 @@
 const ADD_BOOK = 'bookstore/books/ADD_BOOK';
 const REMOVE_BOOK = 'bookstore/books/REMOVE_BOOK';
 const initialState = {
-  list: [],
+  list: [{title: 'The Hunger Games', author: 'Suzanne Collins', category: 'Action'}],
 };
 
 const addBook = () => ({
