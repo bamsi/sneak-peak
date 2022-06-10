@@ -6,6 +6,7 @@ The Bookstore is a website designed using React & Redux which allows you to perf
 - Add a book.
 - Remove a selected book.
 
+<img alt="img" src="screen-short.png" width="60%" height="auto" />
 
 ## Built With
 
