@@ -6,9 +6,9 @@ import CurrentChapter from './CurrentChapter';
 
 const ListItem = () => {
   const bookList = useSelector((state) => state.books.list);
-  const list = bookList.map((item, index) => (
-    <li className="list-item" key={item.title}>
-      <Book title={item.title} author={item.author} index={index} />
+  const list = bookList.map((item) => (
+    <li className="list-item" key={item.item_id}>
+      <Book title={item.title} author={item.author} id={item.item_id} />
       <div className="book-status">
         <BookStatus />
         <CurrentChapter />

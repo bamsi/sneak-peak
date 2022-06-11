@@ -6,6 +6,8 @@ The Bookstore is a website designed using React & Redux which allows you to perf
 - Add a book.
 - Remove a selected book.
 
+The list of books are saved in the bookstore API.
+
 <img alt="img" src="screen-short.png" width="60%" height="auto" />
 
 ## Built With
@@ -62,6 +64,7 @@ You can deploy the website to any web server of your choice
 ## Acknowledgments
 
 - Hat tip to [Microverse](www.microverse.org) and all the staff
+- Book Store notion [Notion](https://www.notion.so/product?fredir=1)
 - Thanks to My coding Partners
 - Thanks to My Morning-session-group and Standup-team Partners and
 - Thanks to Code Reviewers
