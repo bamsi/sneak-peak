@@ -1,6 +1,6 @@
 .book-section {
   background-color: #fafafa;
-  padding: 0;
+  padding: 2rem 0;
   margin: 0;
 }
 
@@ -24,9 +24,101 @@
 .book-status {
   display: flex;
   gap: 2rem;
+  align-items: center;
 }
 
 .action {
   list-style-type: none;
   display: flex;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.action li {
+  border-right: 1px solid #888;
+  padding: 0 1rem;
+}
+
+.action li:first-child {
+  padding-left: 0;
+}
+
+.action li:last-child {
+  border: 0;
+}
+
+.gray-color {
+  color: #888;
+}
+
+.book-title {
+  margin: 0;
+  padding: 0.3rem 0;
+}
+
+.blue-color {
+  color: #88b3d7;
+}
+
+.author {
+  margin: 1rem 0;
+  text-transform: capitalize;
+}
+
+.action-button {
+  border: 0;
+  background-color: #fff;
+  padding: 0;
+  cursor: pointer;
+}
+
+.book-progress {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 7px solid transparent;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image:
+    linear-gradient(#fff, #fff),
+    linear-gradient(to right, #e8e8e8 26%, #0290ff 74%);
+  background-position: center center, left top;
+  background-origin: content-box, border-box;
+  background-clip: content-box, border-box;
+  transform: rotate(30deg);
+}
+
+.percentage h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.percentage {
+  padding: 0 3rem 0 1rem;
+  border-right: 2px solid #e8e8e8;
+}
+
+.chapter {
+  margin: 0;
+  font-weight: 500;
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.to-uppercase {
+  text-transform: uppercase;
+}
+
+.progress-button {
+  border: none;
+  text-transform: uppercase;
+  background-color: #0290ff;
+  color: #e8e8e8;
+  border-radius: 0.2rem;
+  padding: 0.8rem;
 }

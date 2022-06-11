@@ -12,13 +12,13 @@ const Book = ({ title, author, id }) => {
 
   return (
     <div>
-      <span>Action</span>
-      <h2>{title}</h2>
-      <span>{author}</span>
+      <span className="gray-color">Action</span>
+      <h2 className="book-title">{title}</h2>
+      <span className="blue-color author">{author}</span>
       <ul className="action">
-        <li><button type="button">Comments</button></li>
-        <li><button type="button" onClick={() => { removeBook(); }}>Remove</button></li>
-        <li><button type="button">Edit</button></li>
+        <li><button type="button" className="action-button blue-color">Comments</button></li>
+        <li><button type="button" className="action-button blue-color" onClick={() => { removeBook(); }}>Remove</button></li>
+        <li><button type="button" className="action-button blue-color">Edit</button></li>
       </ul>
     </div>
   );

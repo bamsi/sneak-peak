@@ -1,11 +1,11 @@
 import React from 'react';
 
 const BookStatus = () => (
-  <div>
-    <div>circle</div>
-    <div>
+  <div className="book-progress">
+    <div className="circle" />
+    <div className="percentage">
       <h2>64%</h2>
-      <span>Completed</span>
+      <span className="gray-color">Completed</span>
     </div>
   </div>
 );

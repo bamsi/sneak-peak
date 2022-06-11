@@ -65,6 +65,7 @@ You can deploy the website to any web server of your choice
 
 - Hat tip to [Microverse](www.microverse.org) and all the staff
 - Book Store notion [Notion](https://www.notion.so/product?fredir=1)
+- [Zeplin](https://zeplin.io/)
 - Thanks to My coding Partners
 - Thanks to My Morning-session-group and Standup-team Partners and
 - Thanks to Code Reviewers
