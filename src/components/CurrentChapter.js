@@ -2,9 +2,9 @@ import React from 'react';
 
 const CurrentChapter = () => (
   <div>
-    <span>Current Chapter</span>
-    <h3>Chapter 17</h3>
-    <button type="button">Update Progress</button>
+    <span className="to-uppercase gray-color">Current Chapter</span>
+    <h3 className="chapter">Chapter 17</h3>
+    <button type="button" className="progress-button">Update Progress</button>
   </div>
 );
 
