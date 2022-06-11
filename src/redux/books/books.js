@@ -1,9 +1,10 @@
-import axios from 'axios';
+import axios from "axios";
 
-const ADD_BOOK = 'bookstore/books/ADD_BOOK';
-const REMOVE_BOOK = 'bookstore/books/REMOVE_BOOK';
-const FETCH_BOOK = 'bookstore/books/FETCH_BOOK';
-const baseUrl = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/sHlHVhUrYculpxBSdyiZ/books';
+const ADD_BOOK = "bookstore/books/ADD_BOOK";
+const REMOVE_BOOK = "bookstore/books/REMOVE_BOOK";
+const FETCH_BOOK = "bookstore/books/FETCH_BOOK";
+const baseUrl =
+  "https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/sHlHVhUrYculpxBSdyiZ/books";
 
 const initialState = {
   list: [],
@@ -79,11 +80,14 @@ const saveBook = (data) => (dispatch) => {
 
 const deleteBook = (payload) => (dispatch) => {
   const { id } = payload;
-  axios.delete(`${baseUrl}/${id}`).then(() => {
-    dispatch(removeBook(payload));
-  }).catch((error) => {
-    handleError(error);
-  });
+  axios
+    .delete(`${baseUrl}/${id}`)
+    .then(() => {
+      dispatch(removeBook(payload));
+    })
+    .catch((error) => {
+      handleError(error);
+    });
 };
 
 export { deleteBook, fetchBooks, saveBook };
