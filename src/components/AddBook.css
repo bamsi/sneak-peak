@@ -4,7 +4,7 @@
 }
 
 .gray-color {
-  color: #888888;
+  color: #888;
 }
 
 .add-book-title {
@@ -14,9 +14,9 @@
 }
 
 .book-form {
-    display: grid;
-    grid-template-columns: 2fr 2fr 1fr 1fr;
-    gap: 10px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+  gap: 10px;
 }
 
 .input-text {

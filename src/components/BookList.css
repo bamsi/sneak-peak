@@ -35,7 +35,7 @@
 }
 
 .action li {
-  border-right: 1px solid #888888;
+  border-right: 1px solid #888;
   padding: 0 1rem;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .gray-color {
-  color: #888888;
+  color: #888;
 }
 
 .book-title {
@@ -84,7 +84,8 @@
   border: 7px solid transparent;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-image: linear-gradient(#fff, #fff),
+  background-image:
+    linear-gradient(#fff, #fff),
     linear-gradient(to right, #e8e8e8 26%, #0290ff 74%);
   background-position: center center, left top;
   background-origin: content-box, border-box;
