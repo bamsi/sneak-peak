@@ -1,11 +1,11 @@
-import { React, useState } from "react";
-import { v4 as uuidv4 } from "uuid";
-import { useDispatch } from "react-redux";
-import { saveBook } from "../redux/books/books";
+import { React, useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
+import { useDispatch } from 'react-redux';
+import { saveBook } from '../redux/books/books';
 
 const AddBook = () => {
-  const [title, setTitle] = useState("");
-  const [author, setAuthor] = useState("");
+  const [title, setTitle] = useState('');
+  const [author, setAuthor] = useState('');
   const dispatch = useDispatch();
 
   const changeTitle = (e) => {
@@ -24,11 +24,11 @@ const AddBook = () => {
         item_id: id,
         title,
         author,
-        category: "Action",
+        category: 'Action',
       };
       dispatch(saveBook({ newBook }));
     } else {
-      alert("Please enter all required field");
+      alert('Please enter all required field');
     }
   };
 
